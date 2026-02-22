@@ -53,7 +53,7 @@
     - SSH Key πρόσβαση (passwordless).
     - Χρήστης μέλος του 'docker' group (για docker-compose χωρίς sudo).
     - Ρύθμιση 'Sudoers' (sudo visudo) για τις εξής εντολές:
-      dannys ALL=(ALL) NOPASSWD: /usr/bin/find, /usr/bin/zip, /usr/sbin/ipset, /usr/bin/stat, /usr/bin/journalctl, /usr/bin/rm -f /tmp/*, /usr/bin/tee /tmp/*, /bin/cp * /tmp/*
+      ονομα_χρήστη ALL=(ALL) NOPASSWD: /usr/bin/find, /usr/bin/zip, /usr/sbin/ipset, /usr/bin/stat, /usr/bin/journalctl, /usr/bin/rm -f /tmp/*, /usr/bin/tee /tmp/*, /bin/cp * /tmp/*
 
 
 4. ΚΑΤΑΓΡΑΦΗ (Logging Strategy)
